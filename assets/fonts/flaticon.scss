@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0bb5e287e1156ca57c3a484ed6af17af") format("truetype"),
+url("./flaticon.woff?0bb5e287e1156ca57c3a484ed6af17af") format("woff"),
+url("./flaticon.woff2?0bb5e287e1156ca57c3a484ed6af17af") format("woff2"),
+url("./flaticon.eot?0bb5e287e1156ca57c3a484ed6af17af#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0bb5e287e1156ca57c3a484ed6af17af#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "positive": "\f101",
+    "coins": "\f102",
+    "hand": "\f103",
+    "cogs": "\f104",
+    "money": "\f105",
+    "coin": "\f106",
+    "stack-of-three-coins": "\f107",
+    "headphone": "\f108",
+    "inbox": "\f109",
+);
+
+.flaticon-positive:before {
+    content: map-get($flaticon-map, "positive");
+}
+.flaticon-coins:before {
+    content: map-get($flaticon-map, "coins");
+}
+.flaticon-hand:before {
+    content: map-get($flaticon-map, "hand");
+}
+.flaticon-cogs:before {
+    content: map-get($flaticon-map, "cogs");
+}
+.flaticon-money:before {
+    content: map-get($flaticon-map, "money");
+}
+.flaticon-coin:before {
+    content: map-get($flaticon-map, "coin");
+}
+.flaticon-stack-of-three-coins:before {
+    content: map-get($flaticon-map, "stack-of-three-coins");
+}
+.flaticon-headphone:before {
+    content: map-get($flaticon-map, "headphone");
+}
+.flaticon-inbox:before {
+    content: map-get($flaticon-map, "inbox");
+}

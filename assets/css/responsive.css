@@ -1,0 +1,244 @@
+/* Normal desktop :1500. */
+@media (min-width: 1501px) and (max-width: 1919px) {
+}
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .wrapper {
+    padding: 30px;
+  }
+  .author-details p {
+    font-size: 14px;
+  }
+  .single-progressbar {
+    margin-bottom: 25px;
+  }
+  .progressbar {
+    margin-bottom: 0;
+  }
+  .counter-wrapper {
+    padding: 0;
+  }
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .title-area .title-outline {
+    font-size: 60px;
+  }
+  .wrapper {
+    padding: 40px;
+  }
+  .banner-content {
+    height: auto;
+    justify-content: end;
+    padding-bottom: 15px;
+  }
+  .banner-content.light {
+    padding-top: 130px;
+    padding-bottom: 15px;
+  }
+  .social-icon {
+    margin-bottom: 30px;
+  }
+  .banner-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .banner-content .banner-buttons {
+    margin-top: 20px;
+  }
+  .author-img {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .author-img img {
+    width: 150px;
+  }
+  .about-buttons {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .blog-title {
+    font-size: 18px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .term-condition {
+    text-align: inherit;
+    margin-top: 5px;
+  }
+}
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .bg-overlay {
+    z-index: 1;
+  }
+  .wrapper {
+    padding: 40px;
+  }
+  .title-area .title-outline {
+    font-size: 40px;
+    right: -30px;
+  }
+  .banner-content {
+    height: auto;
+    justify-content: end;
+    padding-bottom: 15px;
+  }
+  .banner-content.light {
+    padding-top: 130px;
+    padding-bottom: 15px;
+  }
+  .social-icon {
+    margin-bottom: 20px;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .banner-content .banner-buttons {
+    margin-top: 15px;
+  }
+  .banner-content p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .author-img {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .author-img img {
+    width: 150px;
+  }
+  .author-details {
+    margin-bottom: 5px;
+  }
+  .about-buttons {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .portfolio-menu ul li {
+    padding: 3px 15px;
+    margin-right: 3px;
+  }
+  .blog-title {
+    font-size: 18px;
+  }
+  .footer-social {
+    margin-top: 20px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .term-condition {
+    text-align: inherit;
+    margin-top: 5px;
+  }
+}
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  .bg-overlay {
+    z-index: 1;
+  }
+  .wrapper {
+    padding: 30px;
+  }
+  .title-area .title-outline {
+    font-size: 30px;
+    right: -25px;
+    top: 30px;
+  }
+  .banner-area.light {
+    background: none;
+  }
+  .banner-content {
+    height: auto;
+    justify-content: end;
+    padding-bottom: 15px;
+  }
+  .banner-content.light {
+    padding-top: 130px;
+    padding-bottom: 15px;
+  }
+  .social-icon {
+    margin-bottom: 20px;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .banner-content p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .banner-content .banner-buttons {
+    margin-top: 15px;
+  }
+  .author-img {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .author-img img {
+    width: 150px;
+  }
+  .author-details {
+    margin-bottom: 5px;
+  }
+  .about-buttons {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .counter-wrapper {
+    padding: 0;
+  }
+  .single-service {
+    padding: 20px;
+  }
+  .service-icon {
+    margin-bottom: 15px;
+  }
+  .service-info h4 {
+    margin-bottom: 5px;
+  }
+  .portfolio-menu ul li {
+    text-align: center;
+    display: block;
+    margin: 5px;
+  }
+  .cta-content h2 {
+    font-size: 22px;
+  }
+  .blog-title {
+    font-size: 18px;
+  }
+  .contact-address-info .icon {
+    margin-right: 20px;
+  }
+  .contact-address-info .text h4 {
+    font-size: 20px;
+  }
+  .contact-address-info .text h4 span {
+    font-size: 14px;
+  }
+  .contact-form button {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+  .footer-social {
+    margin-top: 15px;
+  }
+  .footer-bottom {
+    text-align: center;
+  }
+  .term-condition {
+    text-align: inherit;
+    margin-top: 5px;
+  }
+}
