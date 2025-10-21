@@ -1,0 +1,27 @@
+{
+  "name": "ayang-personal-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio website showcasing projects and skills",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build process needed'",
+    "deploy": "echo 'Deploy to your hosting platform'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AyangAI/personalWebsite.git"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website",
+    "html5",
+    "css3",
+    "javascript",
+    "responsive"
+  ],
+  "author": "AyangAI",
+  "license": "MIT",
+  "homepage": "https://github.com/AyangAI/personalWebsite#readme"
+}
